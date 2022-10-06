@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Home</title>
+  </head>
+
+  <body>
+    <!---------------- Header ---------------->
+    <div class="header">
+      <nav class="nav">
+        <a href="index.html">
+          <img src="" alt="Logo" class="logo" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <img
+            src="Images/black-circle-close-button-png-5.png"
+            alt="circle close button icon"
+            class="sidebtn"
+            onclick="hideMenu()"
+          />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <img
+          src="Images/menu-bars-button-icon.png"
+          alt="menu bars icon"
+          class="sidebtn"
+          onclick="showMenu()"
+        />
+      </nav>
+      <h1>Welcome to our Page!</h1>
+    </div>
+    <!---------------- Slider ---------------->
+    <div class="slider">
+      <div class="slides">
+        <div class="slide active">
+          <img src="Images/Slider0.jpg" alt="Picture of a wand on a book" />
+        </div>
+        <div class="slide">
+          <img src="Images/Slider1.jpg" alt="Picture of a wand on a book" />
+        </div>
+        <div class="slide">
+          <img src="Images/Slider2.jpg" alt="Picture of a wand on a book" />
+        </div>
+        <div class="slide">
+          <img src="Images/Slider3.jpg" alt="Picture of a wand on a book" />
+        </div>
+        <div class="slide">
+          <img src="Images/Slider4.jpg" alt="Picture of a wand on a book" />
+        </div>
+        <!---->
+      <div class="slide-manual">
+        <div class="btn active"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

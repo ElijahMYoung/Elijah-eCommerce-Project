@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Home</title>
+  </head>
+
+  <body>
+    <!---------------- Header ---------------->
+    <div class="header">
+      <nav>
+        <a href="index.html">
+          <img src="" alt="Logo" class="logo" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <img
+            src="Images/black-circle-close-button-png-5.png"
+            alt="circle close button icon"
+            class="sidebtn"
+            onclick="hideMenu()"
+          />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <img
+          src="Images/menu-bars-button-icon.png"
+          alt="menu bars icon"
+          class="sidebtn"
+          onclick="showMenu()"
+        />
+      </nav>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
