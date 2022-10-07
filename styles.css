@@ -16,13 +16,15 @@ h1 {
   color: white;
   text-align: center;
   font-size: 50px;
+  padding-bottom: 10%;
 }
-/* Nav Bar */
+/*------------------------Nav Bar------------------------*/
 .nav {
   display: flex;
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 7vh;
 }
 nav img {
   width: 150px;
@@ -58,7 +60,7 @@ nav .sidebtn {
   display: none;
 }
 
-/* Slider */
+/*------------------------Slider------------------------*/
 /* .slider {
   width: 680px;
   height: 512px;
@@ -134,7 +136,107 @@ nav .sidebtn {
   background: #677168;
   box-shadow: 0 0 2px rgb(58, 39, 58);
 }
-/* media queries */
+/* ------------------------Contact Us Page------------------------*/
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: -50px;
+  margin-left: -100px;
+  padding: 20px 100px;
+}
+
+.container:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.contact-body {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  text-align: center;
+  background-color: #5d3754;
+}
+
+.contact-left {
+  height: 100%;
+  background: url(Images/USH_Wands_VB.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.contact-right {
+  padding: 25px 40px;
+}
+
+h2 {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  color: white;
+}
+
+h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background-color: #d6d2c4;
+}
+
+.inputf {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  outline: none;
+  border: 2px groove #d6d2c4;
+  font-size: 1.2rem;
+  margin-bottom: 22px;
+  transition: 0.4s;
+}
+
+.inputf:hover {
+  background-color: #d6d2c4;
+}
+
+.inputf:focus {
+  background-color: white;
+  border: 3px solid #0783a2;
+}
+.area {
+  min-height: 150px;
+}
+.send {
+  width: 100%;
+  padding: 00.5rem 1rem;
+  font-size: 1.2rem;
+  color: #003b49;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: 0.3s;
+}
+
+.send:hover {
+  color: white;
+  background-color: #003b49;
+}
+
+/*------------------------media queries------------------------*/
 @media (max-width: 820px) {
   h1 {
     font-size: 45px;
@@ -176,6 +278,16 @@ nav .sidebtn {
     width: 10px;
     height: 10px;
     margin: 8px;
+  }
+  .contact-body {
+    grid-template-columns: 1fr;
+    padding-top: 50px;
+  }
+  .contact-left {
+    height: 200px;
+  }
+  .contact-right {
+    padding: 5px 50px 5px;
   }
 }
 @media (max-width: 620px) {
