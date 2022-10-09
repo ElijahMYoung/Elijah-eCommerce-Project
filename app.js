@@ -75,17 +75,21 @@ fetch("products.json")
     let out = "";
     for (let product of products) {
       out += `
-  <div class="prod-image">
-  <img src="${product.icon}" alt="" />
-</div>
-<div class="prod-info">
-  <h3 class="prod-title">${product.item}</h3>
-  <div class="subInfo">
-    <div class="price">${product.price}</div>
-    <div class="description">${product.description}</div>
-  </div>
-</div>
-</div>
+<div class="prod-box">
+       <div class="prod-image">
+         <img src="${product.icon}" alt="" />
+       </div>
+       <div class="prod-info">
+         <h3 class="prod-title">${product.item}</h3>
+         <div class="prod-desc">
+           <div class="description">${product.description}</div>
+         </div>
+         <div class="subInfo">
+           <div class="price">${product.price}</div>
+         </div>
+       </div>
+     </div>
+
   `;
     }
 
