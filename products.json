@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "item": "Twisted Oak",
+    "price": "$120.00",
+    "description": "Black limba handle with an unknown wood shaft, 13in",
+    "icon": "Images/Product Images/wand0.webp"
+  },
+  {
+    "id": 2,
+    "item": "Crimson Aurum",
+    "price": "$100.00",
+    "description": "West African Padauk, 12 3/4in",
+    "icon": "Images/Product Images/wand1.webp"
+  },
+  {
+    "id": 3,
+    "item": "Touch of Decay",
+    "price": "$90.00",
+    "description": "Mystery wood with a pearl button pommel, 12 1/2in",
+    "icon": "Images/Product Images/wand2.webp"
+  },
+  {
+    "id": 4,
+    "item": "Knave",
+    "price": "$125.00",
+    "description": "Mystery wood, 13 1/2in",
+    "icon": "Images/Product Images/wand3.webp"
+  },
+  {
+    "id": 5,
+    "item": "Merlin's Reprise",
+    "price": "$280.00",
+    "description": "Antique rolled gold handle padauk, 15in",
+    "icon": "Images/Product Images/wand4.webp"
+  },
+  {
+    "id": 6,
+    "item": "Umbral Deceit",
+    "price": "$100.00",
+    "description": "Poplar, 14 1/2in",
+    "icon": "Images/Product Images/wand5.webp"
+  },
+  {
+    "id": 7,
+    "item": "Hermit's Lance",
+    "price": "$95.00",
+    "description": "Mystery hardwood, 14 3/4in",
+    "icon": "Images/Product Images/wand6.webp"
+  },
+  {
+    "id": 8,
+    "item": "Scholar's Soul",
+    "price": "$150.00",
+    "description": "Padauk handle maple shaft, 13 3/4in",
+    "icon": "Images/Product Images/wand7.webp"
+  },
+  {
+    "id": 9,
+    "item": "Traitor's Pearl",
+    "price": "$100.00",
+    "description": "Maple handle walnut shaft, 13 3/4in",
+    "icon": "Images/Product Images/wand8.webp"
+  },
+  {
+    "id": 10,
+    "item": "Hawkmoth",
+    "price": "$120.00",
+    "description": "Unknown hardwood, 13 1/4in",
+    "icon": "Images/Product Images/wand9.webp"
+  },
+  {
+    "id": 11,
+    "item": "Sage's Spear",
+    "price": "$130.00",
+    "description": "Padauk and black limba, 14 1/4in",
+    "icon": "Images/Product Images/wand10.webp"
+  },
+  {
+    "id": 12,
+    "item": "The Tower",
+    "price": "$90.00",
+    "description": "Black limba, 13 1/2in",
+    "icon": "Images/Product Images/wand11.webp"
+  }
+]

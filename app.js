@@ -56,3 +56,38 @@ var repeat = function (activeClass) {
   repeater();
 };
 repeat();
+
+// Fetching Json for product page
+// document.getElementById("app").innerHTML = `
+// <h1 class="app-title">Wands (${products.length} results)</h1>
+// ${products
+//   .map(function (wand) {
+//     return wand.item;
+//   })
+//   .join("")}
+// `;
+fetch("products.json")
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (products) {
+    let placeholder = document.querySelector("#data-output");
+    let out = "";
+    for (let product of products) {
+      out += `
+  <div class="prod-image">
+  <img src="${product.icon}" alt="" />
+</div>
+<div class="prod-info">
+  <h3 class="prod-title">${product.item}</h3>
+  <div class="subInfo">
+    <div class="price">${product.price}</div>
+    <div class="description">${product.description}</div>
+  </div>
+</div>
+</div>
+  `;
+    }
+
+    placeholder.innerHTML = out;
+  });

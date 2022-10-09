@@ -199,7 +199,6 @@ h2:after {
 
 .inputf {
   width: 100%;
-  padding: 0.5rem 1rem;
   background-color: white;
   outline: none;
   border: 2px groove #d6d2c4;
@@ -235,7 +234,27 @@ h2:after {
   color: white;
   background-color: #003b49;
 }
-
+/*------------------------Product Page------------------------*/
+.prod-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #d6d2c4;
+}
+.prod-box {
+  flex: 1 1 300px;
+  background: #677168;
+  border: 1px groove #d6d2c4;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+}
+.prod-box .prod-image {
+  padding: 10px;
+  background: #677168;
+  text-align: center;
+}
 /*------------------------media queries------------------------*/
 @media (max-width: 820px) {
   h1 {
