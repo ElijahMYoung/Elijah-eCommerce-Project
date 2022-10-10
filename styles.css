@@ -254,7 +254,7 @@ h2:after {
   background-color: #003b49;
 }
 /*------------------------Product Page------------------------*/
-.prod-container {
+#data-output {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -263,6 +263,7 @@ h2:after {
 }
 .prod-box {
   flex: 1 1 300px;
+  flex-grow: 0;
   background: #003b49;
   border: 1px groove #d6d2c4;
   position: relative;

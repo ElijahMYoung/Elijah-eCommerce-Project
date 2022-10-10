@@ -12,6 +12,8 @@ var slides = document.querySelectorAll(".slide");
 var btns = document.querySelectorAll(".btn");
 let currentSlide = 1;
 
+//The below functions make manual navigation of the slides possible
+//This function initializes the first slide and button as active and makes it show the active one
 var manualNav = function (manual) {
   slides.forEach((slide) => {
     slide.classList.remove("active");
@@ -23,14 +25,14 @@ var manualNav = function (manual) {
   slides[manual].classList.add("active");
   btns[manual].classList.add("active");
 };
-
+//This function makes it so that clicking the button actually makes
 btns.forEach((btn, i) => {
   btn.addEventListener("click", () => {
     manualNav(i);
     currentSlide = i;
   });
 });
-
+// Below is the function that will make the slider automatically cycle through the slides
 var repeat = function (activeClass) {
   let active = document.getElementsByClassName("active");
   let i = 1;
