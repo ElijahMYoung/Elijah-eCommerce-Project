@@ -62,7 +62,18 @@ nav img {
 nav .sidebtn {
   display: none;
 }
+/*------------------------Home Page Content------------------------*/
 
+.paragraph-container {
+  padding: 5% 5%;
+  margin: 10%;
+  border: 2px groove #d6d2c4;
+}
+.paragraph-container p {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
 /*------------------------Slider------------------------*/
 /* .slider {
   width: 680px;
@@ -282,7 +293,7 @@ h2:after {
 }
 /*------------------------ Footer ------------------------*/
 .footer-distributed {
-  background-color: #292c2f;
+  background-color: #331e2e;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -397,6 +408,9 @@ h2:after {
     height: 10px;
     margin: 8px;
   }
+  .paragraph-container p {
+    font-size: 1.5rem;
+  }
   .contact-body {
     grid-template-columns: 1fr;
     padding-top: 50px;
@@ -424,6 +438,9 @@ h2:after {
     height: 8px;
     margin: 6px;
   }
+  .paragraph-container p {
+    font-size: 1.25rem;
+  }
   .footer-distributed .footer-left,
   .footer-distributed .footer-right {
     text-align: center;
@@ -446,5 +463,8 @@ h2:after {
   }
   .slides .slide-manual {
     bottom: 10px;
+  }
+  .paragraph-container p {
+    font-size: 1.125rem;
   }
 }
