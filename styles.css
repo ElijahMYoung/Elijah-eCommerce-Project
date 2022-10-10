@@ -11,7 +11,10 @@ body {
   width: 100%;
   overflow-x: hidden;
   min-height: 100vh;
-  background-image: linear-gradient(rgba(93, 55, 84, 0.5), rgba(0, 59, 73, 0.8)),
+  background-image: linear-gradient(
+      rgba(93, 55, 84, 0.75),
+      rgba(0, 59, 73, 0.4)
+    ),
     url(Images/213-2132426_ftestickers-background-sky-star-sky-star-png.png);
   display: flex;
   flex-direction: column;
@@ -69,6 +72,7 @@ nav .sidebtn {
   padding: 5% 5%;
   margin: 10%;
   border: 2px groove #d6d2c4;
+  background: #5d3754;
 }
 .paragraph-container p {
   color: white;
